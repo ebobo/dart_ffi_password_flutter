@@ -1,0 +1,42 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # https://dart-lang.github.io/linter/lints/avoid_print.html
+    avoid_print: false
+    # https://dart-lang.github.io/linter/lints/avoid_relative_lib_imports.html
+    # avoid_relative_lib_imports: false
+    # https://dart-lang.github.io/linter/lints/avoid_types_as_parameter_names.html
+    # avoid_types_as_parameter_names: false
+    # https://dart-lang.github.io/linter/lints/camel_case_types.html
+    # camel_case_types: false
+    # https://dart-lang.github.io/linter/lints/constant_identifier_names.html
+    # constant_identifier_names: false
+    # https://dart-lang.github.io/linter/lints/directives_ordering.html
+    # directives_ordering: false
+    # https://dart-lang.github.io/linter/lints/empty_constructor_bodies.html
+    # empty_constructor_bodies: false
+    # https://dart-lang.github.io/linter/lints/empty_statements.html
+    # empty_statements: false
+    # https://dart-lang.github.io/linter/lints/file_names.html
+    # file_names: false
+    # https://dart-lang.github.io/linter/lints/hash_and_equals.html
+    # hash_and_equals: false
+    # https://dart-lang.github.io/linter/lints/implementation_imports.html
+    # implementation_imports: false
+    # https://dart-lang.github.io/linter/lints/library_names.html
+    # library_names: false
+    # https://dart-lang.github.io/linter/lints/library_prefixes.html
+    # library_prefixes: false
+    # https://dart-lang.github.io/linter/lints/non_constant_identifier_names.html
+    # non_constant_identifier_names: false
+    # https://dart-lang.github.io/linter/lints/one_member_abstracts.html
+    # one_member_abstracts: false
+    # https://dart-lang.github.io/linter/lints/package_api_docs.html
+    # package_api_docs: false
+    # https://dart-lang.github.io/linter/lints/package_names.html
+    # package_names: false
+    # https://dart-lang.github.io/linter/lints/prefer_adjacent_string_concatenation.html
+    # prefer_adjacent_string_concatenation: false
+    # https://dart-lang.github.io/linter/lints/prefer_const_constructors.html
+    # prefer_const_constructors: false

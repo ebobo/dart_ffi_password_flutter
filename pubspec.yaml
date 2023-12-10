@@ -1,0 +1,28 @@
+name: login_flutter
+description: 'An Autronica Project.'
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  ffi: ^2.1.0
+  path: ^1.8.3
+  window_manager: ^0.3.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
