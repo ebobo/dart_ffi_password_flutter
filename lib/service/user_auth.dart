@@ -16,7 +16,7 @@ class LoginService {
     if (Platform.isLinux) {
       libraryPath = 'lib/linux/libuserauth.so';
     } else if (Platform.isMacOS) {
-      libraryPath = 'lib/macos/libuserauth.dylib';
+      libraryPath = '/usr/local/lib/libuserauth.dylib';
     } else if (Platform.isWindows) {
       libraryPath = 'lib/windows/userauth.dll';
     } else {

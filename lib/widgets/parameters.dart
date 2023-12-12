@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
 class AppParameters {
-  static const Size windowSize = Size(400, 475);
+  static const Size windowSize = Size(400, 435);
 }
