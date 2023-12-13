@@ -5,9 +5,12 @@ import 'package:login_flutter/widgets/colors.dart';
 import 'package:login_flutter/widgets/parameters.dart';
 import 'package:login_flutter/service/user_auth.dart';
 
-void main() async {
+void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
   // Must add this line.
+
+  print(args);
+
   await windowManager.ensureInitialized();
   WindowOptions windowOptions = const WindowOptions(
     size: AppParameters.windowSize,

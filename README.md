@@ -33,3 +33,31 @@ To run your application, navigate to the release bundle directory and execute yo
 cd build/linux/x64/release/bundle
 ./your_app_name
 ```
+
+# Build on Mac
+
+build the application
+
+```sh
+flutter build macos
+```
+
+To run your application, navigate to the release bundle directory and execute your app:
+
+```sh
+ ~/projects/flutter/flutter_ffi/dart_ffi_password_flutter/build/macos/Build/Products/Release/login_flutter.app/Contents/MacOS % ./login_flutter
+```
+
+# add command line arguments in flutter app
+
+develop
+
+```sh
+flutter run -d macos -a 2 -a 3
+```
+
+release
+
+```sh
+./login_flutter 2 3
+```
